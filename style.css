@@ -1,0 +1,109 @@
+h1 {
+    font-size: 45px;
+    font-family: Chivo;
+    color: white;
+    margin-top: 1px;
+    font-style: bold;
+}
+
+a {
+    text-decoration: none;
+    font: 50px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0px
+}
+
+.banner {
+    text-align: center;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 146px;
+    padding-bottom: 147px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 17px;
+}
+
+img {
+    width: 200px;
+    border-radius: 4px;
+}
+
+h2{
+    font-family: Chivo;
+    color: #404042;
+    font-size: 27px;
+}
+
+h3{
+    font-family: Chivo;
+    color: #404042;
+    font-size: 21px;
+}
+
+.btn-blue {
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Overpass;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #0D1EC6;
+}
+
+.desc {
+    font-family: Overpass;
+    color: white;
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+.learn {
+    font-family: Overpass;
+    color: #404042;
+    font-size: 18px;
+}
+
+.footer {
+    font-family: Overpass;
+    font-size: 18px;
+    color: white;
+    background: #404042;
+    padding: 10px 0px;
+}
+
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+}
+
+.card-white img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 4px;
+}
+
+.container {
+    width: 900px;
+    margin: 60px auto;
+}
